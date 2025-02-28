@@ -1,2 +1,2 @@
 # Ejerciciosclasejava
-Ejercicios clase java, primera prueba, CON yUSEF
+Ejercicios clase java, primera prueba, con YUSEF
