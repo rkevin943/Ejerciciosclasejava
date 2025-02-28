@@ -1,0 +1,64 @@
+import javax.swing.JOptionPane;
+
+public class Main {
+    public static void main(String[] args) {
+
+       
+        System.out.println("Kevin");
+
+       
+        System.out.println("Integer: " + 10 +
+                           "\nDouble: " + 3.14 +
+                           "\nBoolean: " + true);
+
+       
+        int numInt = 9;
+        double numDouble = 8.5;
+        boolean numBoolean = false;
+        char numChar = 'A';  
+        String numString = "Kevin";  
+        byte edad = 20;
+        short numShort = 3;
+        long numLong = 3;
+
+    
+        System.out.println("Integer: " + numInt +
+                           "\nDouble: " + numDouble +
+                           "\nBoolean: " + numBoolean +
+                           "\nChar: " + numChar +
+                           "\nString: " + numString +
+                           "\nByte: " + edad +
+                           "\nShort: " + numShort +
+                           "\nLong: " + numLong);
+
+        // Operaciones matemáticas
+        int a = 10;
+        int b = 5;
+
+        // Suma
+        int suma = a + b;
+        System.out.println("La suma de a y b es: " + suma);
+
+        // Resta
+        int resta = a - b;
+        System.out.println("La resta de a y b es: " + resta);
+
+        // Multiplicación
+        int multiplicacion = a * b;
+        System.out.println("La multiplicación de a y b es: " + multiplicacion);
+
+        // División
+        int division = a / b;
+        System.out.println("La división de a y b es: " + division);
+
+        // Módulo (resto de la división)
+        int modulo = a % b;
+        System.out.println("El módulo de a y b es: " + modulo);
+
+        // División con decimales
+        double c = 10.0;
+        double d = 3.0;
+        double divisionDecimal = c / d;
+        System.out.println("La división con decimales de c y d es: " + divisionDecimal);
+    }
+}
